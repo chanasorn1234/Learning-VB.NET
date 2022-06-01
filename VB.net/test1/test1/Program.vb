@@ -12,6 +12,14 @@ Module Program
             Console.WriteLine()
         Next
         obj.display()
-
+        If (x = 10) Then
+            Console.WriteLine("equal 10")
+        Else
+            Console.WriteLine("No")
+        End If
+        While (x!= 0)
+            x -= 1
+        End While
+        Console.WriteLine("x = 0 done")
     End Sub
 End Module
